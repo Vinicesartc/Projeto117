@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(250, 167, 0);
+    }
+    
+    h1{
+    background-color: rgb(255, 211, 168);
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+    color: rgb(20, 57, 220);
+    }
+    
+    
+    #nome, #precisão, #pontuação, #tempo, #desenho{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(4, 255, 251);
+    }
+
+    #pontuação{
+        float: left;
+        margin-left: 18px;
+    }
+    #tempo{
+        float: right;
+        margin-right: 25px;
+    }
+    
+    canvas{
+        border: 5px solid white;
+        border-radius: 20px;
+        animation-name:animation;
+        animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count:infinite;
+    }
+    
+    @keyframes animation{
+        from{
+            box-shadow: 20px 20px 20px rgb(255, 72, 0);
+        }
+    
+        to{
+            box-shadow: 23px 23px 23px rgb(47, 249, 249);
+        }
+    }
